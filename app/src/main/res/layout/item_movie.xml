@@ -3,12 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#00030303"
+    android:backgroundTint="#000C0C0C">
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
